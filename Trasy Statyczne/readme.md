@@ -9,7 +9,8 @@ This project demonstrates a comprehensive **Enterprise Network design** simulate
 The topology simulates a real-world scenario connecting a Main Campus (HQ) to an ISP backbone and remote cloud services.
 
 ## 🗺️ Network Topology
-![Network Topology Diagram](topology.png)
+<img width="964" height="367" alt="image" src="https://github.com/user-attachments/assets/39fe71c8-d5ba-4a23-b166-32ed3c8e7b68" />
+
 *(Click the image to view full resolution)*
 
 ## ⚙️ Key Features & Technologies
