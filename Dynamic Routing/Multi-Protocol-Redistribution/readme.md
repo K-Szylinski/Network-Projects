@@ -42,7 +42,7 @@ router ospf 1
  network 19.20.22.0 0.0.0.3 area 0
  network 19.20.22.12 0.0.0.3 area 0
  default-information originate
-
+!
 ip route 0.0.0.0 0.0.0.0 Serial0/1/0 
 ip route 192.168.0.0 255.255.0.0 Null0 
 ip route 19.20.0.0 255.255.0.0 Null0 
