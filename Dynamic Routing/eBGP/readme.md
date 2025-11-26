@@ -18,18 +18,18 @@ The objective was to establish BGP peering between an Enterprise Network, two IS
 
 | AS Number | Role | Internal Protocol (IGP) | Connected To |
 | :--- | :--- | :--- | :--- |
-| **AS 24848** | Enterprise HQ | OSPF | ISP1 (AS 1001), ISP2 (AS 2002) |
-| **AS 1001** | ISP Backbone A | OSPF | Enterprise, Cloud (AS 3915) |
-| **AS 2002** | ISP Backbone B | EIGRP | Enterprise, Cloud (AS 3915) |
-| **AS 3915** | Public Cloud | Static/Connected | ISP1, ISP2 |
+| **AS 1** | Enterprise HQ | OSPF | ISP1 (AS 11), ISP2 (AS 22) |
+| **AS 11** | ISP Backbone A | OSPF | Enterprise, Cloud (AS 13) |
+| **AS 22** | ISP Backbone B | EIGRP | Enterprise, Cloud (AS 13) |
+| **AS 13** | Public Cloud | Static/Connected | ISP1, ISP2 |
 
 ## 🔧 Technical Implementation
 
 ### 1. 🤝 eBGP Peering Implementation
 * Established eBGP neighbor relationships between edge routers:
-    * `EDGE1` (AS 24848) ↔ `ISP1` (AS 1001)
-    * `EDGE2` (AS 24848) ↔ `ISP2` (AS 2002)
-    * `GATE3` (AS 3915) ↔ `ISP3` & `ISP4`
+    * `EDGE1` (AS 1) ↔ `ISP1` (AS 11)
+    * `EDGE2` (AS 2) ↔ `ISP2` (AS 22)
+    * `GATE3` (AS 13) ↔ `ISP3` & `ISP4`
 * Configured manual neighbor definitions since eBGP does not support auto-discovery.
 
 ### 2. 📢 Prefix Advertisement & Filtering
