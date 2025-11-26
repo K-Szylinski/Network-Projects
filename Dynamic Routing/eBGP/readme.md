@@ -11,7 +11,7 @@ This advanced lab simulates a **Global Internet Backbone** connecting four disti
 The objective was to establish BGP peering between an Enterprise Network, two ISP Backbones, and a Public Cloud Provider, while simultaneously managing internal routing via OSPF and EIGRP.
 
 ## 🗺️ Network Topology
-![Network Topology Diagram](topology.png)
+<img width="1699" height="660" alt="image" src="https://github.com/user-attachments/assets/7d309e55-4423-4ea8-b397-f61a9555cc6a" />
 *(Click the image to view full resolution)*
 
 ## ⚙️ Autonomous System Architecture
