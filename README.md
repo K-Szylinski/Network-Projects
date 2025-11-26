@@ -1,6 +1,6 @@
 ### Cześć! Jestem Krzysztof 👋
 
-Jestem studentem Teleinformatyki na Politechnice Świętokrzyskiej i certyfikowanym administratorem sieci (CCNA). Pasjonuję się inżynierią sieciową, cyberbezpieczeństwem oraz automatyzacją (NetDevOps).
+Jestem studentem Informatyki ze specjalizacją w teleinformatyce na Politechnice Świętokrzyskiej i certyfikowanym administratorem sieci (CCNA). Pasjonuję się inżynierią sieciową, cyberbezpieczeństwem oraz automatyzacją (NetDevOps).
 
 - 🔭 Aktualnie pracuję nad: Zaawansowanymi topologiami w Cisco Packet Tracer & automatyzacją w Pythonie
 - 🎓 Edukacja: Informatyka (Specjalizacja: Teleinformatyka)
