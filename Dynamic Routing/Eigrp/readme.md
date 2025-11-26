@@ -23,7 +23,7 @@ Unlike basic routing configurations, this lab addresses real-world challenges su
 
 ### 3. 📉 Route Summarization (Optimization)
 * Implemented **Manual Route Summarization** on Edge Routers (`EDGE1`, `EDGE2`).
-* Aggregated internal Enterprise networks (192.168.0.0/16) and Public ranges (81.26.0.0/21) into single summary routes advertised to the ISP.
+* Aggregated internal Enterprise networks (192.168.0.0/16) and Public ranges (19.20.0.0/16) into single summary routes advertised to the ISP.
 * **Benefit:** Significantly reduced the size of the Global Routing Table and minimized EIGRP query scope.
 
 ### 4. 🛡️ Redundancy & Failover Testing
