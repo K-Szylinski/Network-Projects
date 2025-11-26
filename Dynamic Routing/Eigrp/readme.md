@@ -9,10 +9,6 @@ This project focuses on deploying and optimizing the **EIGRP (Enhanced Interior 
 
 Unlike basic routing configurations, this lab addresses real-world challenges such as **asymmetric routing**, **suboptimal path selection**, and **routing table bloat**. The goal was to achieve full End-to-End connectivity, ensure high availability (HA) via backup links, and optimize routing updates using manual summarization.
 
-## 🗺️ Network Topology
-![Network Topology Diagram](topology.png)
-*(Click the image to view full resolution)*
-
 ## ⚙️ Key Technical Implementations
 
 ### 1. 🔄 Dynamic Routing (EIGRP AS 1)
