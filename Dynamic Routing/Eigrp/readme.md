@@ -42,6 +42,8 @@ router eigrp 1
  eigrp router-id 1.1.1.1
  no auto-summary
  passive-interface default
- no passive-interface GigabitEthernet0/0.1
+ no passive-interface GigabitEthernet0/0/1
+ no passive-interface GigabitEthernet0/0/2
+ no passive-interface GigabitEthernet0/0/0.99
  network 192.168.0.0 0.0.255.255
- network 81.26.4.0 0.0.0.255
+ network 19.20.0.0 0.0.255.255
