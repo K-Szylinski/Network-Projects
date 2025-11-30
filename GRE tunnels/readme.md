@@ -22,8 +22,8 @@ The goal was to create a logical **Overlay Network** that connects geographicall
 * **Addressing:** Used a dedicated private subnet `3.3.3.0/29` for tunnel interfaces (/30 for each link) and `3.3.4.0/29` for buckup tunnel interfaces.
 * **Encapsulation:** Tunnel Source is the physical WAN interface (Public IP); Tunnel Destination is the Peer's Public IP.
 
-### 2. 🔀 Overlay Routing (EIGRP AS 101)
-* **Protocol:** A dedicated EIGRP instance (AS 101) runs *inside* the GRE tunnels.
+### 2. 🔀 Overlay Routing (EIGRP AS 100)
+* **Protocol:** A dedicated EIGRP instance (AS 100) runs *inside* the GRE tunnels.
 * **Function:** It exchanges private routes (192.168.x.x, 10.0.10.x) between sites.
 * **Benefit:** The underlying ISP routers do not see the private subnets; they only forward the encapsulated GRE packets.
 
