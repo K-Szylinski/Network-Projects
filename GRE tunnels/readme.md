@@ -24,7 +24,7 @@ The goal was to create a logical **Overlay Network** that connects geographicall
 
 ### 2. 🔀 Overlay Routing (EIGRP AS 101)
 * **Protocol:** A dedicated EIGRP instance (AS 101) runs *inside* the GRE tunnels.
-* **Function:** It exchanges private routes (192.168.x.x, 172.16.x.x) between sites.
+* **Function:** It exchanges private routes (192.168.x.x, 10.10.10.x) between sites.
 * **Benefit:** The underlying ISP routers do not see the private subnets; they only forward the encapsulated GRE packets.
 
 ### 3. 🏠 Remote Site Configuration (GATE4)
