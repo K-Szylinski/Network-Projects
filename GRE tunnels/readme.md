@@ -52,3 +52,13 @@ interface Tunnel2
  tunnel source GigabitEthernet0/0/1
  tunnel destination 200.1.1.2
 !
+```
+## 🚀 How to Validate
+1.  **Verify Tunnels:** Run `show ip interface brief` on Gateway routers. Tunnel interfaces should be **UP/UP**.
+2.  **Check Routing:** Run `show ip route eigrp` on GATE4. You should see Enterprise routes (192.168.x.x) learned via the Tunnel.
+3.  **Traceroute Test:** Run `tracert 10.0.10.2` from UserA.
+    * **Result:** You should see fewer hops (virtual hops) than the physical path.
+    * **Example:** `192.168.91.1` -> `Tunnel IP` -> `10.0.10.2`. The intermediate ISP routers are "invisible" to the traceroute.
+
+---
+*Created by [Krzysztof Szyliński](https://github.com/K-Szylinski)*
