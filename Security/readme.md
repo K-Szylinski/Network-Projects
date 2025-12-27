@@ -41,7 +41,7 @@ ip ssh version 2
 crypto key generate rsa general-keys modulus 1536
 !
 ! Restrict VTY Access via ACL
-access-list 1 permit host 192.168.99.99
+access-list 1 permit host 192.168.99.4
 access-list 1 deny any
 !
 line vty 0 4
