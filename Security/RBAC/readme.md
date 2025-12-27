@@ -15,8 +15,8 @@ Unlike standard routing labs, this exercise emphasizes securing the **Management
 
 ## 🔐 Security Implementations
 
-### 1. 🛂 Secure Management Access (SSH & ACLs)
-* **Transition from Telnet to SSH:** Disabled insecure Telnet access and implemented **SSHv2** with 1536-bit RSA keys to encrypt management traffic.
+### 1. 🛂 Secure Management Access (Hybrid Approach)
+* **Tiered Access Strategy:** Retained Telnet for isolated internal LAN management (Private Zone) while strictly enforcing **SSHv2** with 1536-bit RSA keys for secure remote administration of the Edge Router (GATE4).
 * **Management Plane Protection (MPP):** Applied **Standard Access Control Lists (ACLs)** to VTY lines, restricting administrative access to a specific "Admin PC" only.
 * **Login Security:** Enforced minimum password length, configured `service password-encryption`, and set aggressive execution timeouts.
 
