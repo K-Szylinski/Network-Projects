@@ -10,7 +10,7 @@ This project involves the implementation of a secure, redundant Site-to-Site IPs
 The architecture connects an Enterprise HQ (utilizing dual edge routers for redundancy) to a Remote Public Cloud provider and a Remote Private branch. Key challenges addressed in this implementation include configuring ISAKMP policies, managing cryptographic maps across redundant gateways, and implementing NAT exemption to allow VPN traffic to bypass Network Address Translation mechanisms.
 
 ## 🗺️ Network Topology
-![Network Topology Diagram](topology.png)
+![Network Topology Diagram](topo.png)
 *(Click the image to view full resolution)*
 
 ## ⚙️ Key Features / Technologies
